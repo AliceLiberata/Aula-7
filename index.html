@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jornal do Bairro</title>
+    <link rel="stylesheet" href="chic.CSS">
+    <!--link bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Jornal Fictício-->
+</head>
+  <!--Navbar-->
+<body>
+ <header>
+        <h1>Principais Notícias do Bairro</h1>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">JORNAL</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Notícias</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Lazer</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Esportes</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Outros
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Variados</a></li>
+                      <li><a class="dropdown-item" href="#">Eventos</a></li>
+                      <li><a class="dropdown-item" href="#">Configuraçães</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+ </header>
+     <!--Carrossel-->
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://img.blogdoanderson.com/2018/11/inundacao.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Forte temporal</h5>
+            <p>Um forte temporal causou grandes destruições no bairro.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://s2-pipelinevalor.glbimg.com/dSFP56bXPWA3doiLzNbcxIL6ZDs=/0x0:1920x1280/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_b3309463db95468aa275bd532137e960/internal_photos/bs/2022/v/3/kn8nyYR9iEeHPcxjyEOg/football-488714-1920.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Futebol</h5>
+            <p>Campeonato regional.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://static.itdg.com.br/images/auto-auto/ebd20d211fd00132d716dbed046a5079/shutterstock-511675831.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Festival das Tortas</h5>
+            <p>Chegou o tão esperado evento, prepare o apetite.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  <main>
+    <section>
+      <p></p>
+        <h2>As principais Notícias do Bairro</h2>
+          <h3 class="Texto">Forte temporal ontem a noite derrubou uma árvore, já apresentava risco aos moradores que haviam solicitado ajuda. Felizmente não teve nenhum ferido, porém a árvore danificou alguns fios deixando os moradores sem energia rua João Carlos, tudo já foi resolvido. </h3>
+             <h4 class="Texto">Saiba mais sobre o estrago das chuvas no <a href="https://www.otempo.com.br/galeria-de-fotos/veja-imagens-da-chuva-em-bh-1.1017170" target="_blank">O TEMPO</a></h4>
+      
+        <h2>Finalmente, A praça abandonada foi reconstruida e recém aberta</h2>
+          <h3 class="Texto">Depois de longos 8 anos a praça que tinha muitos buracos e bancos quebrados voltou a vida depois de 6 meses de reforma, deixando muitas crianças felizes e a rua cheia de vida novamente. A praça fica na rua da escola, vá conhecer.</h3>
+        
+        <h2>O campeonato regional de futebol é semana que vem!</h2>
+           <h3 class="Texto">Nosso time está composto pelos melhores jogadores das escolas ao redor. Devemos todos torcer no estádio no dia 8. Gloria a arstotzka!</h3>
+    </section>
+
+    <article>
+        <h2>Festival das Tortas</h2>
+           <h3 class="Texto">Começou o tão esperado evento do ano. É simples basta você se inscrever em alguma e criar sua melhor receita de torta.</h3>
+             <h4 class="Texto">Para se inspirar aqui está uma receita clássica de torta de limão.</h4>
+              <iframe src="https://www.youtube.com/embed/X3dtT2bGrys" width="560" height="315" title="Uma deliciosa torta de limão para se inspirar" frameborder="0" allowfullscreen></iframe>
+    </article>
+     <p></p>
+     <!--Fomulario-->
+     <p class="Texto">Dê sua opinião para nos ajudar a crescer, está satisfeito?No que podemos melhorar?</p>
+     <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label">Seu e-mail</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="@.com">
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">Sua opinião sobre o site</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <div class="mb-3 form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Moro no bairro</label>
+    </div>
+    <button type="submit" class="btn btn-outline-info">Enviar</button>
+  </form>
+     <!--Botões-->
+    <anside><button type="button" class="btn btn-outline-info">Inscreva-se</button>
+            <button type="button" class="btn btn-outline-info">Compartilhe</button>
+            <button type="button" class="btn btn-outline-info">Apoie</button>
+    </anside>
+     <p></p>
+     <!--Grid-->
+     <div class="container text-center">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+        <div class="col">Notícias do Estado</div>
+        <div class="col">Notícias Internacionais</div>
+        <div class="col">Política</div>
+        <div class="col">Entrevistas</div>
+      </div>
+     </div>
+     <div class="container text-center">
+      <div class="row">
+        <div class="col-sm">Canal no youtube</div>
+        <div class="col-sm">Rádio ao vivo</div>
+        <div class="col-sm">Conheça mais</div>
+      </div>
+    </div>
+
+  </main>
+    <footer>
+        <p>Prefeitura de Belo Horizonte</p>
+        <p>Endereço: Avenida Mercúrio - Contato: (31) 996425447 / 998450654</p>
+        <p>Bairro Poço Raso</p>
+    </footer>
+    <!--link Javascript-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+  </body>
+</html>
